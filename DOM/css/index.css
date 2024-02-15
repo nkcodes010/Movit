@@ -1,0 +1,131 @@
+/* reset-css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.show {
+    display: block;
+    height:60px;
+    position: absolute; 
+    top: 80px; 
+    left:0;
+}
+
+/* hero-section */
+.hero-section {
+    background-image: url("../images/hero4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-btn {
+    background-image: url("../images/button.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #c9671d;
+    font-weight: 600;
+}
+
+.assign {
+    background-image: url("../images/banner/b2.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height:40vh;
+    position: relative;
+    top: 50px;
+
+}
+.Repair{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.up-to{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.span1{
+    color: red;
+}
+
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    justify-content: center;
+    
+}
+.asset{
+    margin-top: 25px;
+}
+
+/* another one */
+
+.read-sec {
+    background-image: url("../images/banner/b19.jpg");
+}
+
+
+.hero-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 250px;
+}
+.all{
+    color: white;
+    font-size: 20px;
+}
+
+.more{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/* second work */
+
+.about {
+    background-image: url("../images/banner/about/banner.png");
+}
+
+/* .all-2 {
+    color: white;
+    font-size: 20px;
+}
+
+.know{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+} */
+
+
+

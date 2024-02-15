@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mov.it</title>
+</head>
+<body class="">
+    <!-- Navbar -->
+    <header class="bg-white flex justify-between h-20 items-center px-4 md:px-16">
+        <a href="" class="text-lg font-bold text-orange-700">
+            Mov<span class="text-black">.it</span>
+        </a>
+        <!-- desktop nav -->
+        <nav class="hidden lg:block">
+            <a href="index.html" class="ml-4 font-medium pb-1 text-[#4A9F9D] border-b-2 border-[#4A9F9D]">Home</a>
+            <a href="./pages/shop.html" class="ml-4 font-medium pb-1 hover:text-[#4A9F9D] hover:border-b-2 hover:border-[#4A9F9D]">Shop</a>
+            <a href="./pages/blog.html" class="ml-4 font-medium pb-1 hover:text-[#4A9F9D] hover:border-b-2 hover:border-[#4A9F9D]">Blog</a>
+            <a href="./pages/about.html" class="ml-4 font-medium pb-1 hover:text-[#4A9F9D] hover:border-b-2 hover:border-[#4A9F9D]">About</a>
+            <a href="./pages/contact.html" class="ml-4 font-medium pb-1 hover:text-[#4A9F9D] hover:border-b-2 hover:border-[#4A9F9D]">Contact</a>
+            <a href="./pages/cart.html" class="ml-4 font-medium pb-1 hover:text-[#4A9F9D] hover:border-b-2 hover:border-[#4A9F9D]">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-8">Login</button>
+        </nav>
+        <!-- mobile nav -->
+        <nav id="mobile-nav" class="hide lg:hidden">
+            <a href="index.html" class="block ml-16 my-4  lg:ml-4">Home</a>
+            <a href="./pages/shop.html" class="block ml-16 my-4  lg:ml-4">Shop</a>
+            <a href="./pages/blog.html" class="block ml-16 my-4  lg:ml-4">Blog</a>
+            <a href="./pages/about.html" class="block ml-16 my-4  lg:ml-4">About</a>
+            <a href="./pages/contact.html" class="block ml-16 my-4  lg:ml-4">Contact</a>
+            <a href="./pages/cart.html" class="block ml-16 my-4  lg:ml-4">Cart</a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-16 lg:ml-8">Login</button>
+        </nav>
+        <svg viewBox="0 0 100 80" width="30" height="30" class="lg:hidden" onclick="displayMobileNav()">
+            <rect width="100" height="20" rx="10"></rect>
+            <rect y="30" width="100" height="20" rx="10"></rect>
+            <rect y="60" width="100" height="20" rx="10"></rect>
+            </svg>
+    </header>
+    <main class="">
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="pl-16">
+                <p class="">Trade-in-offer</p>
+                <h2 class="text-4xl font-bold">Super hot deals <br> <span class="text-[#4A9F9D]">On all our juicy products.</span></h2>
+                <p class="my-2">Get up to 60% off & save more with coupons. </p>
+                <a href="./pages/shop.html" class="hero-btn">Shop Now</a>
+            </div>
+    
+        </section>
+
+        <section class="assign">
+            <div class="grid justify-items-center p-8">
+            <h5 class="Repair self-center" >Repair Services</h5><br>
+            <h1 class="up-to self-center">Up To <span class="span1">70% Off</span>- All t-Shirts & Accessories</h1><br>
+            <button class="btn1 hover:bg-green-600 self-center"><b>Explore More</b></button>
+        </div>
+        </section>
+
+    
+
+
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
